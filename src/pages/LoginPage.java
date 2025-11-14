@@ -30,9 +30,9 @@ public class LoginPage extends BasePage {
     }
     //actions
     public void login(String user, String pass) {
-        type(By.cssSelector(usernameLocator), user);
-        type(By.cssSelector(passwordLocator), pass);
-        click(By.cssSelector(loginButtonLocator));
+        type(By.xpath(usernameLocator), user);
+        type(By.xpath(passwordLocator), pass);
+        click(By.xpath(loginButtonLocator));
 
     }
     //get error message
