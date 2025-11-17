@@ -1,6 +1,4 @@
-package base;
-
-
+package main.java.com.automation.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -1,10 +1,7 @@
-package pages;
+package com.automation.pages;
 
-import base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import static org.zeromq.SocketType.type;
 
 public class LoginPage extends BasePage {
     /*Bài tập 3 – Build LoginPage.java

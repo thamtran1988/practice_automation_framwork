@@ -1,4 +1,4 @@
-package test;
+package com.testcases;
 
 public class ProfileTest {
 }
